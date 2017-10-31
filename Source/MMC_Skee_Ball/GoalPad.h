@@ -13,19 +13,19 @@ Purpose: Class for goal pad that calculates where it was hit and callse the appr
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "GoalPad.generated.h"
+#include "GoalPad.h"
 
 UENUM()
-enum class GoalHit
+enum GoalHit
 {
-	ZeroPoints		UMETA(DisplayName = "ZeroPoints"),
-	TenPoints		UMETA(DisplayName = "TenPoints"),
-	TwentyPoints	UMETA(DisplayName = "TwentyPoints"),
-	ThirtyPoints	UMETA(DisplayName = "ThirtyPoints"),
-	FortyPoints		UMETA(DisplayName = "FortyPoints"),
-	FiftyPoints		UMETA(DisplayName = "FiftyPoints"),
-	HundredPoints	UMETA(DisplayName = "HundredPoints")
+	ZeroPoints		= 0		UMETA(DisplayName = "ZeroPoints"),
+	TenPoints		= 10	UMETA(DisplayName = "TenPoints"),
+	TwentyPoints	= 20	UMETA(DisplayName = "TwentyPoints"),
+	ThirtyPoints	= 30	UMETA(DisplayName = "ThirtyPoints"),
+	FortyPoints		= 40	UMETA(DisplayName = "FortyPoints"),
+	FiftyPoints		= 50	UMETA(DisplayName = "FiftyPoints"),
+	HundredPoints	= 100	UMETA(DisplayName = "HundredPoints")
 };
-
 
 UCLASS()
 class MMC_SKEE_BALL_API AGoalPad : public AActor
@@ -36,14 +36,20 @@ private:
 
 	// Sets default values for this actor's properties
 	AGoalPad();
-	static GoalHit lastGoal;
+
+	GoalHit lastGoal;
+
+	// TO-DO: implement updateGoal
 	void updateGoal(FVector RelativeHitLocation);
+	
+	// get current score based on state of lastGoal
+	int getScore() { return lastGoal; }
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

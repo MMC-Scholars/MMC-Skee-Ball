@@ -18,7 +18,7 @@ AGoalPad::AGoalPad()
 }
 
 // Updates current hid score based on location of the hit
-void updateGoal(FVector RelativeHitLocation)
+void AGoalPad::updateGoal(FVector RelativeHitLocation)
 {
 	// TO-DO based on relative location of hit, figure out which goal
 	// then update the enumerator to reflect the latest score
@@ -43,11 +43,16 @@ void AGoalPad::BeginOverlap(class AActor* OtherActor, UPrimitiveComponent* Other
 	int32 OtherBodyIndex)
 {
 	// Check OtherActor is not null or this.
-	if (OtherActor != nullptr && OtherActor != this && OtherComp != nullptr)
+	if (OtherActor && OtherActor != this && OtherComp)
 	{
-		// Update the enum lastGoal based on the location of the hit.
-		FVector RelativeHitLocation = OtherActor->GetActorLocation() - this.GetActorLocation();
-		// TO-DO: Delete the skee ball. Deconstruct OtherActor.
+		// The relative hit location is loc of skee ball minus loc of this.
+		FVector RelativeHitLocation = OtherActor->GetActorLocation() - 
+			this->GetActorLocation();
+		// Update Goal enum based on relative location of hit
+		updateGoal(RelativeHitLocation);
+
+		// Destroy the Skee Ball.
+		OtherActor->Destroy();
 	}
 
 

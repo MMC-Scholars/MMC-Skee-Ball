@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{49BB3084-3848-4BC8-91AD-835AFB912283}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{2231E84B-EF25-4112-8AB3-7C534799376D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{51162758-BCA5-48E7-80F7-E3A0D4307915}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{55BABA4E-7B71-402B-9A15-4EDD64609AA8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{D24E6302-A522-4038-88FB-835C198BF5C8}"
 EndProject
@@ -72,8 +72,8 @@ Global
 		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0}.DebugGame|Win64.Build.0 = DebugGame_Game|x64
 		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0}.Development Editor|HTML5.ActiveCfg = HTML5_Development_Editor|Win32
 		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0}.Development Editor|Win32.ActiveCfg = Development_Editor|Win32
-		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0}.Development Editor|Win64.ActiveCfg = Development_Editor|x64
-		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0}.Development Editor|Win64.Build.0 = Development_Editor|x64
+		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0}.Development Editor|Win64.ActiveCfg = Development_Game|x64
+		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0}.Development Editor|Win64.Build.0 = Development_Game|x64
 		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0}.Development|HTML5.ActiveCfg = HTML5_Development_Game|Win32
 		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0}.Development|HTML5.Build.0 = HTML5_Development_Game|Win32
 		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0}.Development|Win32.ActiveCfg = Development_Game|Win32
@@ -91,7 +91,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D24E6302-A522-4038-88FB-835C198BF5C8} = {49BB3084-3848-4BC8-91AD-835AFB912283}
-		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0} = {51162758-BCA5-48E7-80F7-E3A0D4307915}
+		{D24E6302-A522-4038-88FB-835C198BF5C8} = {2231E84B-EF25-4112-8AB3-7C534799376D}
+		{C8A8AC3E-1D8E-4A08-A5EC-2F044EDA69F0} = {55BABA4E-7B71-402B-9A15-4EDD64609AA8}
 	EndGlobalSection
 EndGlobal

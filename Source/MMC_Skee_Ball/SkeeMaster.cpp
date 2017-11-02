@@ -6,21 +6,10 @@
 
 #include "SkeeMaster.h"
 
-SkeeMaster g_SkeeMaster;
-
-// Sets default values
 SkeeMaster::SkeeMaster()
 {
-	this->resetScore();
 }
 
-//TO-DO: implement.
-void SkeeMaster::addToScore()
+SkeeMaster::~SkeeMaster()
 {
-	// Add current value of GoalHit
-	
-
-	//check if the game is over
 }
-
-

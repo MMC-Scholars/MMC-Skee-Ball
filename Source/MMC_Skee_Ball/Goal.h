@@ -21,6 +21,9 @@ public:
 	// Sets default values for this actor's properties
 	AGoal();
 
+private: 
+	int m_iScore;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -28,6 +31,12 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	// Getting and setting score via blueprints
+	UFUNCTION(BlueprintCallable, Category = "Goal")
+		void setScore(int score) { m_iScore = score; }
+	UFUNCTION(BlueprintCallable, Category = "Goal")
+		int getScore() { return m_iScore; }
 
 	
 	

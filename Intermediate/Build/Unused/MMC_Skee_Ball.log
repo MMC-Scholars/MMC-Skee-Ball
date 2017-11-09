@@ -1,16 +1,3 @@
-﻿  Performing full C++ include scan (no include cache file)
-  Parsing headers for MMC_Skee_BallEditor
-    Running UnrealHeaderTool "C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\MMC_Skee_Ball.uproject" "C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\Intermediate\Build\Win64\MMC_Skee_BallEditor\Development\MMC_Skee_BallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for MMC_Skee_BallEditor in 7.6998915 seconds
-  Performing 5 actions (4 in parallel)
-  GoalPad.gen.cpp
-  GoalPad.cpp
-  Skee_master.cpp
-C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\Source\MMC_Skee_Ball\Skee_master.cpp(32): error C2084: function 'ASkee_master::ASkee_master(void)' already has a body
-  C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\Source\MMC_Skee_Ball\Skee_master.cpp(11): note: see previous definition of '{ctor}'
-C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\Source\MMC_Skee_Ball\GoalPad.cpp(41): error C2228: left of '.GetActorLocation' must have class/struct/union
-  C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\Source\MMC_Skee_Ball\GoalPad.cpp(41): note: type is 'AGoalPad *const '
-  C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\Source\MMC_Skee_Ball\GoalPad.cpp(41): note: did you intend to use '->' instead?
-ERROR : UBT error : Failed to produce item: C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\Binaries\Win64\UE4Editor-MMC_Skee_Ball.pdb
-  Total build time: 10.75 seconds (Local executor: 0.00 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" MMC_Skee_BallEditor Win64 Development "C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\MMC_Skee_Ball.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.
+﻿  Cleaning MMC_Skee_BallEditor Binaries...
+EXEC : error : Unable to determine module type for C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\Source\MMC_Skee_Ball\MMC_Skee_Ball.Build.cs
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(39,5): error MSB3073: The command ""C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Clean.bat" MMC_Skee_BallEditor Win64 Development "C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\MMC_Skee_Ball.uproject" -waitmutex" exited with code -1.

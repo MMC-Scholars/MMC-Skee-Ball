@@ -5,9 +5,10 @@
 
 
 #include "SkeeMaster.h"
-
+SkeeMaster g_SkeeMaster;
 SkeeMaster::SkeeMaster()
 {
+	resetScore();
 }
 
 SkeeMaster::~SkeeMaster()

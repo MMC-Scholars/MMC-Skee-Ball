@@ -14,6 +14,12 @@ AGoal::AGoal()
 	PrimaryActorTick.bCanEverTick = true;
 
 }
+UFUNCTION(BlueprintCallable, Category = "Goal")
+void AGoal::addScoreToGame()
+{
+
+	g_SkeeMaster.addToScore(this->m_iScore);
+}
 
 // Called when the game starts or when spawned
 void AGoal::BeginPlay()

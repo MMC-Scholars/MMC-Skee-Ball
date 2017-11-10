@@ -9,11 +9,12 @@ Purpose: spawnable class representing one goal option
 
 #pragma once
 
+#include "SkeeMaster.h"
 #include "GoalParent.h"
 #include "Goal.generated.h"
 
 UCLASS()
-class MMC_SKEE_BALL_API AGoal : public AGoalParent
+class MMC_SKEE_BALL_API AGoal : public AActor
 {
 	GENERATED_BODY()
 	
@@ -23,6 +24,10 @@ public:
 
 private: 
 	int m_iScore;
+
+	// Call SkeeMaster and add score value of this.
+	UFUNCTION(BlueprintCallable, Category = "Goal")
+		void addScoreToGame();
 
 protected:
 	// Called when the game starts or when spawned
@@ -38,6 +43,5 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Goal")
 		int getScore() { return m_iScore; }
 
-	
 	
 };

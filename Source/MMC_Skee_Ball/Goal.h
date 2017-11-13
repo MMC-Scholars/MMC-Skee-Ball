@@ -34,6 +34,11 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
+	/*
+	   Want the UPROPERTY line, but it gives an error.
+	*/
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Goal")
+		UStaticMeshComponent *EntityModel = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Goal"));
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

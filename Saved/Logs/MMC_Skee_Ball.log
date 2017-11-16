@@ -1,17 +1,12 @@
-﻿Log file open, 11/02/17 13:54:15
-LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
-LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
-LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
-LogWindows: File 'VtuneApi.dll' does not exist
-LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
-LogWindows: File 'VtuneApi32e.dll' does not exist
+﻿Log file open, 11/16/17 14:19:08
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: MMC_Skee_Ball
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-2139316594) SRandInit(-2139316594).
+LogInit: Display: RandInit(1164272431) SRandInit(1164272431).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.157885
+LogStats: Stats thread started at 0.153864
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -83,8 +78,8 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogInit: Build: ++UE4+Release-4.17-CL-3658906
-LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
 LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
 LogInit: Net CL: 3573198
 LogDevObjectVersion: Number of dev versions registered: 16
@@ -104,7 +99,7 @@ LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
 LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
 LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
-LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
@@ -113,160 +108,403 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binari
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.02-17.54.16:395][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.02-17.54.16:395][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.02-17.54.16:445][  0]LogInit: Computer: HS-MT330-7
-[2017.11.02-17.54.16:445][  0]LogInit: User: JSmith
-[2017.11.02-17.54.16:445][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.02-17.54.16:445][  0]LogInit: High frequency timer resolution =3.410117 MHz
-[2017.11.02-17.54.16:445][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.11.02-17.54.16:445][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.02-17.54.16:445][  0]LogMemory: Process Physical Memory: 285.89 MB used, 285.89 MB peak
-[2017.11.02-17.54.16:445][  0]LogMemory: Process Virtual Memory: 281.05 MB used, 281.05 MB peak
-[2017.11.02-17.54.16:445][  0]LogMemory: Physical Memory: 5344.55 MB used,  10961.81 MB free, 16306.36 MB total
-[2017.11.02-17.54.16:445][  0]LogMemory: Virtual Memory: 681.28 MB used,  10961.81 MB free, 8388608.00 MB total
-[2017.11.02-17.54.16:948][  0]LogInit: Using OS detected language (en-US).
-[2017.11.02-17.54.16:948][  0]LogInit: Using OS detected locale (en-US).
-[2017.11.02-17.54.17:082][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.02-17.54.19:890][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.02-17.54.19:917][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2017.11.02-17.54.19:917][  0]LogD3D11RHI:       8069/0/7897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.11.02-17.54.19:917][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.02-17.54.19:921][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.02-17.54.19:921][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.02-17.54.19:921][  0]LogWindows: EnumDisplayDevices:
-[2017.11.02-17.54.19:921][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2017.11.02-17.54.19:921][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2017.11.02-17.54.19:921][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2017.11.02-17.54.19:922][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2017.11.02-17.54.19:922][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.11.02-17.54.19:922][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.11.02-17.54.19:922][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.11.02-17.54.19:922][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.11.02-17.54.19:922][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2017.11.02-17.54.19:922][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
-[2017.11.02-17.54.19:922][  0]LogD3D11RHI:      Driver Date: 9-16-2017
-[2017.11.02-17.54.19:922][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.02-17.54.19:933][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.02-17.54.19:949][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.11.02-17.54.19:992][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Intermediate/Shaders/WorkingDirectory/11184/).
-[2017.11.02-17.54.19:992][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jsmith.ESUE.000/AppData/Local/Temp/UnrealShaderWorkingDir/9C4A685D452B4F502B819093AC0954E5/'.
-[2017.11.02-17.54.19:992][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.02-17.54.22:163][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.02-17.54.22:214][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.02-17.54.22:265][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.02-17.54.22:314][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.02-17.54.22:378][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.02-17.54.22:427][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.02-17.54.22:477][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.02-17.54.22:527][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.02-17.54.22:570][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.02-17.54.22:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.02-17.54.22:674][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.02-17.54.22:723][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.02-17.54.22:772][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.02-17.54.22:821][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.02-17.54.22:870][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.02-17.54.22:970][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.02-17.54.22:970][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.02-17.54.23:010][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.02-17.54.23:106][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.02-17.54.23:135][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.02-17.54.23:184][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.02-17.54.23:234][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.02-17.54.23:283][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.02-17.54.23:335][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.02-17.54.23:335][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.02-17.54.23:865][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.02-17.54.24:481][  0]LogDerivedDataCache: Loaded boot cache 0.62s 106MB C:/Users/Jsmith.ESUE.000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.02-17.54.24:481][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jsmith.ESUE.000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.02-17.54.24:481][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.02-17.54.24:481][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.02-17.54.24:481][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.02-17.54.24:481][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.02-17.54.24:541][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.02-17.54.24:552][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jsmith.ESUE.000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.02-17.54.24:562][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.02-17.54.24:562][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.02-17.54.24:614][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.02-17.54.24:614][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.02-17.54.25:220][  0]LogAssetRegistry: FAssetRegistry took 0.0241 seconds to start up
-[2017.11.02-17.54.25:613][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.02-17.54.25:618][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.02-17.54.26:466][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.02-17.54.26:506][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.02-17.54.26:506][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.02-17.54.26:506][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.02-17.54.26:506][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.02-17.54.26:506][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.02-17.54.27:255][  0]LogNetVersion: MMC_Skee_Ball , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 703335038)
-[2017.11.02-17.54.27:648][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.046193 seconds
-[2017.11.02-17.54.27:654][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.02-17.54.27:654][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.11.02-17.54.27:654][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.02-17.54.27:716][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.02-17.54.38:558][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.02-17.54.38:592][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.02-17.54.39:316][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.02-17.54.39:789][  0]SourceControl: Source control is disabled
-[2017.11.02-17.54.39:789][  0]SourceControl: Source control is disabled
-[2017.11.02-17.54.39:835][  0]SourceControl: Source control is disabled
-[2017.11.02-17.54.39:879][  0]SourceControl: Source control is disabled
-[2017.11.02-17.54.40:491][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.02-17.54.40:724][  0]LogOcInput: OculusInput pre-init called
-[2017.11.02-17.54.40:992][  0]LogEngine: Initializing Engine...
-[2017.11.02-17.54.40:994][  0]LogHMD: Oculus plugin initialized. Version: 4.17.2-3658906+++UE4+Release-4.17, OVRPlugin: 1.15.0
-[2017.11.02-17.54.41:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.02-17.54.41:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.02-17.54.41:627][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.02-17.54.41:635][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.02-17.54.41:648][  0]LogInit: FAudioDevice initialized.
-[2017.11.02-17.54.42:869][  0]LogDerivedDataCache: Saved boot cache 1.22s 93MB C:/Users/Jsmith.ESUE.000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.02-17.54.42:879][  0]LogInit: Texture streaming: Enabled
-[2017.11.02-17.54.42:980][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.02-17.54.43:293][  0]LogInit: Transaction tracking system initialized
-[2017.11.02-17.54.43:600][  0]BlueprintLog: New page: Editor Load
-[2017.11.02-17.54.44:477][  0]LocalizationService: Localization service is disabled
-[2017.11.02-17.54.45:299][  0]LogConsoleResponse: Display: 
-[2017.11.02-17.54.46:569][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.02-17.54.46:569][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.02-17.54.46:569][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.02-17.54.47:683][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/' took 0.02s
-[2017.11.02-17.54.47:760][  0]SourceControl: Source control is disabled
-[2017.11.02-17.54.47:760][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.02-17.54.47:784][  0]LightingResults: New page: Lighting Build
-[2017.11.02-17.54.47:824][  0]MapCheck: New page: Map Check
-[2017.11.02-17.54.47:824][  0]LightingResults: New page: Lighting Build
-[2017.11.02-17.54.49:372][  0]LogAIModule: Creating AISystem for world StartupMap
-[2017.11.02-17.54.49:408][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.02-17.54.49:417][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.02-17.54.49:466][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.593ms to complete.
-[2017.11.02-17.54.49:466][  0]LogFileHelpers: Loading map 'StartupMap' took 1.706
-[2017.11.02-17.54.49:723][  0]LogCollectionManager: Loaded 0 collections in 0.001352 seconds
-[2017.11.02-17.54.49:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Collections/' took 0.01s
-[2017.11.02-17.54.49:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/Developers/JSmith/Collections/' took 0.01s
-[2017.11.02-17.54.49:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/Collections/' took 0.01s
-[2017.11.02-17.54.49:802][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.11.02-17.54.49:810][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2386 classes and 500 folders.
-[2017.11.02-17.54.49:873][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2017.11.02-17.54.52:199][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2017.11.02-17.54.52:242][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2017.11.02-17.54.52:263][  0]LogSlate: Took 0.003571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.02-17.54.52:268][  0]LogSlate: Took 0.003252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.02-17.54.52:349][  0]LogSlate: Took 0.076347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.02-17.54.52:659][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
-[2017.11.02-17.54.52:848][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2017.11.02-17.54.52:848][  0]LogLoad: (Engine Initialization) Total time: 38.94 seconds
-[2017.11.02-17.54.52:848][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.02-17.54.52:849][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.02-17.54.53:191][  0]LogOcInput: OculusInput is initialized
-[2017.11.02-17.54.53:209][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.02-17.54.53:312][  0]LogSlate: Took 0.043534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.02-17.54.53:524][  1]LogAssetRegistry: Asset discovery search completed in 28.3256 seconds
-[2017.11.02-17.54.53:526][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.02-17.54.53:526][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
-[2017.11.02-17.55.03:270][304]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.02-17.55.03:275][304]Running C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/MMC_Skee_Ball.uproject" -game -rocket -progress
-[2017.11.02-17.55.03:476][304]Discovering modules, targets and source code for project...
-[2017.11.02-17.55.05:577][304]ERROR: Unable to determine module type for C:\Users\Public\Documents\Public Programs\MMC-Skee-Ball.git\Source\MMC_Skee_Ball\MMC_Skee_Ball.Build.cs
-[2017.11.02-17.55.05:677][304]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.16-19.19.08:789][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-19.19.08:789][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.16-19.19.08:800][  0]LogInit: Computer: HS-MT330-6
+[2017.11.16-19.19.08:800][  0]LogInit: User: JSmith
+[2017.11.16-19.19.08:800][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.16-19.19.08:800][  0]LogInit: High frequency timer resolution =3.410107 MHz
+[2017.11.16-19.19.08:801][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.16-19.19.08:801][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.16-19.19.08:801][  0]LogMemory: Process Physical Memory: 280.98 MB used, 280.98 MB peak
+[2017.11.16-19.19.08:801][  0]LogMemory: Process Virtual Memory: 285.27 MB used, 285.27 MB peak
+[2017.11.16-19.19.08:801][  0]LogMemory: Physical Memory: 8922.32 MB used,  7384.08 MB free, 16306.40 MB total
+[2017.11.16-19.19.08:801][  0]LogMemory: Virtual Memory: 664.17 MB used,  7384.08 MB free, 8388608.00 MB total
+[2017.11.16-19.19.08:969][  0]LogInit: Using OS detected language (en-US).
+[2017.11.16-19.19.08:969][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.16-19.19.08:971][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.16-19.19.09:595][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.16-19.19.09:619][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.16-19.19.09:619][  0]LogD3D11RHI:       8070/0/7897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.16-19.19.09:619][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.16-19.19.09:623][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.16-19.19.09:623][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.16-19.19.09:623][  0]LogWindows: EnumDisplayDevices:
+[2017.11.16-19.19.09:623][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.16-19.19.09:623][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.11.16-19.19.09:624][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-19.19.09:624][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-19.19.09:624][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.11.16-19.19.09:624][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.11.16-19.19.09:624][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.11.16-19.19.09:624][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.16-19.19.09:624][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.16-19.19.09:624][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.11.16-19.19.09:624][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.11.16-19.19.09:624][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.16-19.19.09:634][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.16-19.19.09:649][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.16-19.19.09:692][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Intermediate/Shaders/WorkingDirectory/7368/).
+[2017.11.16-19.19.09:692][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jsmith/AppData/Local/Temp/UnrealShaderWorkingDir/42B5185E4A3430A7FE2A3FAD91FBB061/'.
+[2017.11.16-19.19.09:692][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.16-19.19.10:546][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.16-19.19.10:595][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.16-19.19.10:644][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.16-19.19.10:693][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.16-19.19.10:742][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.16-19.19.10:791][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.16-19.19.10:840][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.16-19.19.10:889][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.16-19.19.10:932][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.16-19.19.10:981][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.16-19.19.11:029][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.16-19.19.11:077][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.16-19.19.11:125][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.16-19.19.11:173][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.16-19.19.11:221][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.16-19.19.11:317][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.16-19.19.11:317][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.16-19.19.11:355][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.16-19.19.11:441][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.16-19.19.11:467][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.16-19.19.11:515][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.16-19.19.11:562][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.16-19.19.11:611][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.16-19.19.11:659][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.16-19.19.11:659][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.16-19.19.12:082][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.16-19.19.12:196][  0]LogDerivedDataCache: Loaded boot cache 0.11s 106MB C:/Users/jsmith/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.16-19.19.12:196][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jsmith/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.16-19.19.12:196][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.16-19.19.12:196][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.16-19.19.12:196][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.16-19.19.12:196][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.16-19.19.12:213][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.16-19.19.12:225][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jsmith/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.16-19.19.12:234][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.16-19.19.12:235][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.16-19.19.12:235][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-19.19.12:235][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-19.19.12:477][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2017.11.16-19.19.12:637][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-19.19.12:639][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.16-19.19.13:002][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.16-19.19.13:041][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.16-19.19.13:041][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.16-19.19.13:041][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.16-19.19.13:041][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.16-19.19.13:041][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.16-19.19.13:377][  0]LogNetVersion: MMC_Skee_Ball , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 703335038)
+[2017.11.16-19.19.13:560][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.034449 seconds
+[2017.11.16-19.19.13:566][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.16-19.19.13:566][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.16-19.19.13:566][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.16-19.19.13:617][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.16-19.19.15:954][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.16-19.19.15:987][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.16-19.19.16:569][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.16-19.19.16:946][  0]SourceControl: Source control is disabled
+[2017.11.16-19.19.16:946][  0]SourceControl: Source control is disabled
+[2017.11.16-19.19.16:990][  0]SourceControl: Source control is disabled
+[2017.11.16-19.19.17:033][  0]SourceControl: Source control is disabled
+[2017.11.16-19.19.17:555][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.16-19.19.17:776][  0]LogOcInput: OculusInput pre-init called
+[2017.11.16-19.19.18:011][  0]LogEngine: Initializing Engine...
+[2017.11.16-19.19.18:013][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.16-19.19.18:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.16-19.19.18:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.16-19.19.18:361][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.16-19.19.18:372][  0]LogInit: XAudio2 using 'Speaker (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-19.19.18:379][  0]LogInit: FAudioDevice initialized.
+[2017.11.16-19.19.18:525][  0]LogDerivedDataCache: Saved boot cache 0.15s 93MB C:/Users/jsmith/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.16-19.19.18:541][  0]LogInit: Texture streaming: Enabled
+[2017.11.16-19.19.18:637][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.16-19.19.18:843][  0]LogInit: Transaction tracking system initialized
+[2017.11.16-19.19.19:132][  0]BlueprintLog: New page: Editor Load
+[2017.11.16-19.19.19:952][  0]LocalizationService: Localization service is disabled
+[2017.11.16-19.19.20:596][  0]LogConsoleResponse: Display: 
+[2017.11.16-19.19.20:756][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.16-19.19.20:756][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.16-19.19.20:756][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.16-19.19.21:100][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/' took 0.01s
+[2017.11.16-19.19.21:701][  0]SourceControl: Source control is disabled
+[2017.11.16-19.19.21:702][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.16-19.19.21:702][  0]LightingResults: New page: Lighting Build
+[2017.11.16-19.19.21:742][  0]MapCheck: New page: Map Check
+[2017.11.16-19.19.21:742][  0]LightingResults: New page: Lighting Build
+[2017.11.16-19.19.21:833][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.11.16-19.19.21:839][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.16-19.19.21:847][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.16-19.19.21:896][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.686ms to complete.
+[2017.11.16-19.19.21:896][  0]LogFileHelpers: Loading map 'StartupMap' took 0.195
+[2017.11.16-19.19.22:039][  0]LogCollectionManager: Loaded 0 collections in 0.001221 seconds
+[2017.11.16-19.19.22:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Collections/' took 0.01s
+[2017.11.16-19.19.22:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/Developers/JSmith/Collections/' took 0.01s
+[2017.11.16-19.19.22:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/Collections/' took 0.01s
+[2017.11.16-19.19.22:119][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.16-19.19.22:127][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2386 classes and 500 folders.
+[2017.11.16-19.19.22:188][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.16-19.19.22:222][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.16-19.19.22:264][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.16-19.19.22:281][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.16-19.19.22:283][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.16-19.19.22:288][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.16-19.19.22:415][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 26 NumSamples 1 (Frame:1).
+[2017.11.16-19.19.22:659][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.16-19.19.22:659][  0]LogLoad: (Engine Initialization) Total time: 15.24 seconds
+[2017.11.16-19.19.22:659][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.16-19.19.22:659][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.16-19.19.22:659][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.16-19.19.22:686][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.16-19.19.22:742][  1]LogAssetRegistry: Asset discovery search completed in 10.2858 seconds
+[2017.11.16-19.19.22:744][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.16-19.19.22:744][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2017.11.16-19.19.45:024][  7]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2017.11.16-19.19.45:153][  7]LogActorFactory: Actor Factory created Shape_Trim_90_Out
+[2017.11.16-19.19.45:825][ 82]LogActorFactory: Actor Factory created Shape_Trim_90_Out
+[2017.11.16-19.20.13:952][287]LogActorFactory: Actor Factory created Shape_Trim_90_In
+[2017.11.16-19.20.17:477][701]LogActorFactory: Actor Factory created Shape_Trim_90_In
+[2017.11.16-19.20.18:522][825]LogActorFactory: Actor Factory created Shape_Trim_90_In
+[2017.11.16-19.20.31:326][924]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/Maps/Arcade.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.16-19.20.31:336][924]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-19.20.31:345][924]LightingResults: New page: Lighting Build
+[2017.11.16-19.20.31:346][924]LoadErrors: New page: Loading map: Arcade.umap
+[2017.11.16-19.20.31:350][924]MapCheck: New page: Map Check
+[2017.11.16-19.20.31:350][924]LightingResults: New page: Lighting Build
+[2017.11.16-19.20.32:062][924]LogAIModule: Creating AISystem for world Arcade
+[2017.11.16-19.20.32:127][924]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.16-19.20.32:185][924]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.16-19.20.32:239][924]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.367ms to complete.
+[2017.11.16-19.20.32:239][924]LogFileHelpers: Loading map 'Arcade' took 0.915
+[2017.11.16-19.20.43:389][937]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.16-19.20.44:062][937]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2017.11.16-19.20.44:380][937]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2017.11.16-19.20.44:505][937]LogMaterial: Missing cached shader map for material M_CobbleStone_Rough, compiling. 
+[2017.11.16-19.20.44:806][937]LogMaterial: Missing cached shader map for material M_CobbleStone_Smooth, compiling. 
+[2017.11.16-19.20.44:847][937]LogMaterial: Missing cached shader map for material M_Brick_Hewn_Stone, compiling. 
+[2017.11.16-19.20.44:899][937]LogMaterial: Missing cached shader map for material M_Lamp, compiling. 
+[2017.11.16-19.20.44:937][937]LogMaterial: Missing cached shader map for material M_Concrete_Grime, compiling. 
+[2017.11.16-19.20.44:973][937]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile, compiling. 
+[2017.11.16-19.20.45:002][937]LogMaterial: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2017.11.16-19.20.45:037][937]LogMaterial: Missing cached shader map for material M_Concrete_Panels, compiling. 
+[2017.11.16-19.20.45:071][937]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2017.11.16-19.20.45:103][937]LogMaterial: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2017.11.16-19.20.45:140][937]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2017.11.16-19.20.45:174][937]LogMaterial: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2017.11.16-19.20.45:203][937]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.11.16-19.20.45:235][937]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2017.11.16-19.20.45:267][937]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2017.11.16-19.20.45:298][937]LogMaterial: Missing cached shader map for material M_Frame, compiling. 
+[2017.11.16-19.20.45:383][937]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2017.11.16-19.20.45:434][937]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2017.11.16-19.20.45:484][937]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2017.11.16-19.20.45:525][937]LogMaterial: Missing cached shader map for material M_Statue, compiling. 
+[2017.11.16-19.20.45:572][937]LogMaterial: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2017.11.16-19.20.45:606][937]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2017.11.16-19.20.45:673][937]LogMaterial: Missing cached shader map for material M_CobbleStone_Pebble, compiling. 
+[2017.11.16-19.20.45:747][937]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2017.11.16-19.20.45:784][937]LogMaterial: Missing cached shader map for material M_Concrete_Poured, compiling. 
+[2017.11.16-19.20.45:819][937]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2017.11.16-19.20.45:863][937]LogMaterial: Missing cached shader map for material AntiAliasedTextMaterialTranslucent, compiling. 
+[2017.11.16-19.20.45:892][937]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2017.11.16-19.20.45:923][937]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile_Pulse, compiling. 
+[2017.11.16-19.20.45:997][937]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2017.11.16-19.20.46:069][937]LogMaterial: Missing cached shader map for material M_Rock_Marble_Polished, compiling. 
+[2017.11.16-19.20.46:106][937]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2017.11.16-19.20.46:145][937]LogMaterial: Missing cached shader map for material M_Dust_Particle, compiling. 
+[2017.11.16-19.20.46:508][937]LogMaterial: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2017.11.16-19.20.46:544][937]LogMaterial: Missing cached shader map for material M_Metal_Chrome, compiling. 
+[2017.11.16-19.20.46:576][937]LogMaterial: Missing cached shader map for material M_Tech_Checker_Dot, compiling. 
+[2017.11.16-19.20.46:623][937]LogMaterial: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2017.11.16-19.20.46:659][937]LogMaterial: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2017.11.16-19.20.46:692][937]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2017.11.16-19.20.46:722][937]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2017.11.16-19.20.46:815][937]LogMaterial: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2017.11.16-19.20.46:845][937]LogMaterial: Missing cached shader map for material M_Rock_Slate, compiling. 
+[2017.11.16-19.20.46:982][937]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2017.11.16-19.20.47:016][937]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2017.11.16-19.20.47:048][937]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Polished, compiling. 
+[2017.11.16-19.20.47:082][937]LogMaterial: Missing cached shader map for material M_Wood_Walnut, compiling. 
+[2017.11.16-19.20.47:124][937]LogMaterial: Missing cached shader map for material M_Tech_Panel, compiling. 
+[2017.11.16-19.20.47:179][937]LogMaterial: Missing cached shader map for material M_Water_Ocean, compiling. 
+[2017.11.16-19.20.47:214][937]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2017.11.16-19.20.47:247][937]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2017.11.16-19.20.47:452][937]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
+[2017.11.16-19.20.47:492][937]LogAIModule: Creating AISystem for world StarterMap
+[2017.11.16-19.20.49:773][ 49]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.16-19.20.49:773][ 49]LightingResults: New page: Lighting Build
+[2017.11.16-19.20.49:774][ 49]LoadErrors: New page: Loading map: StarterMap.umap
+[2017.11.16-19.20.49:775][ 49]MapCheck: New page: Map Check
+[2017.11.16-19.20.49:775][ 49]LightingResults: New page: Lighting Build
+[2017.11.16-19.20.49:918][ 49]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.16-19.20.50:068][ 49]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.16-19.20.50:189][ 49]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 121.079ms to complete.
+[2017.11.16-19.20.50:191][ 49]LogFileHelpers: Loading map 'StarterMap' took 0.419
+[2017.11.16-19.20.57:411][317]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.16-19.20.58:106][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2017.11.16-19.20.58:112][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-19.20.58:170][317]PIE: New page: PIE session: StarterMap (Nov 16, 2017, 9:20:58 AM)
+[2017.11.16-19.20.58:190][317]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_StarterMap
+[2017.11.16-19.20.58:311][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120710s)
+[2017.11.16-19.20.58:311][317]LogAIModule: Creating AISystem for world StarterMap
+[2017.11.16-19.20.58:312][317]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2017.11.16-19.20.58:385][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/StarterMap.StarterMap to /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap (0.195516s)
+[2017.11.16-19.20.58:431][317]LogInit: XAudio2 using 'Speaker (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-19.20.58:438][317]LogInit: FAudioDevice initialized.
+[2017.11.16-19.20.58:532][317]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.11.16-19.20.58:547][317]LogLoad: Game class is 'GameModeBase'
+[2017.11.16-19.20.58:665][317]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap up for play (max tick rate 0) at 2017.11.16-14.20.58
+[2017.11.16-19.20.58:709][317]LogWorld: Bringing up level for play took: 0.053108
+[2017.11.16-19.20.58:879][317]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.11.16-19.20.58:945][317]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_StarterMap 1.713
+[2017.11.16-19.20.58:945][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2017.11.16-19.21.38:783][143]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2017.11.16-19.21.38:867][143]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap' with GeneratedClass '/Game/StarterContent/Maps/StarterMap.StarterMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap'
+[2017.11.16-19.21.49:268][565]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2017.11.16-19.22.01:947][ 35]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.11.16-19.22.01:966][ 35]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.16-19.22.01:966][ 35]LightingResults: New page: Lighting Build
+[2017.11.16-19.22.01:967][ 35]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2017.11.16-19.22.01:971][ 35]MapCheck: New page: Map Check
+[2017.11.16-19.22.01:971][ 35]LightingResults: New page: Lighting Build
+[2017.11.16-19.22.01:990][ 35]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.16-19.22.02:068][ 35]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.16-19.22.02:192][ 35]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124.139ms to complete.
+[2017.11.16-19.22.02:193][ 35]LogFileHelpers: Loading map 'Minimal_Default' took 0.229
+[2017.11.16-19.23.10:850][320]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.11.16-19.23.10:850][320]LogMaterial: Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.16-19.23.10:850][320]LogMaterial: Warning: 	Only transparent or postprocess materials can read from scene depth.
+[2017.11.16-19.23.18:993][  3]LogAIModule: Creating AISystem for world Arcade
+[2017.11.16-19.23.19:023][  3]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/Maps/Arcade.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.16-19.23.19:023][  3]LightingResults: New page: Lighting Build
+[2017.11.16-19.23.19:024][  3]LoadErrors: New page: Loading map: Arcade.umap
+[2017.11.16-19.23.19:025][  3]MapCheck: New page: Map Check
+[2017.11.16-19.23.19:025][  3]LightingResults: New page: Lighting Build
+[2017.11.16-19.23.19:074][  3]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.16-19.23.19:148][  3]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.16-19.23.19:230][  3]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.592ms to complete.
+[2017.11.16-19.23.19:231][  3]LogFileHelpers: Loading map 'Arcade' took 0.209
+[2017.11.16-19.23.28:176][909]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.16-19.23.28:257][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-19.23.28:257][909]PIE: New page: PIE session: Arcade (Nov 16, 2017, 9:23:28 AM)
+[2017.11.16-19.23.28:257][909]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arcade
+[2017.11.16-19.23.28:304][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046698s)
+[2017.11.16-19.23.28:304][909]LogAIModule: Creating AISystem for world Arcade
+[2017.11.16-19.23.28:305][909]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2017.11.16-19.23.28:305][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arcade.Arcade to /Game/Maps/UEDPIE_0_Arcade.Arcade (0.047634s)
+[2017.11.16-19.23.28:319][909]LogInit: XAudio2 using 'Speaker (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-19.23.28:324][909]LogInit: FAudioDevice initialized.
+[2017.11.16-19.23.28:364][909]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.11.16-19.23.28:364][909]LogLoad: Game class is 'GameModeBase'
+[2017.11.16-19.23.28:369][909]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arcade.Arcade up for play (max tick rate 0) at 2017.11.16-14.23.28
+[2017.11.16-19.23.28:383][909]LogWorld: Bringing up level for play took: 0.017999
+[2017.11.16-19.23.28:492][909]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arcade -0.733
+[2017.11.16-19.23.30:536][126]Cmd: SELECT NONE
+[2017.11.16-19.23.36:255][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-19.23.36:256][592]PIE: New page: PIE session: Arcade (Nov 16, 2017, 9:23:36 AM)
+[2017.11.16-19.23.36:256][592]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arcade
+[2017.11.16-19.23.36:276][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020302s)
+[2017.11.16-19.23.36:276][592]LogAIModule: Creating AISystem for world Arcade
+[2017.11.16-19.23.36:277][592]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2017.11.16-19.23.36:277][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arcade.Arcade to /Game/Maps/UEDPIE_0_Arcade.Arcade (0.021162s)
+[2017.11.16-19.23.36:291][592]LogInit: XAudio2 using 'Speaker (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-19.23.36:296][592]LogInit: FAudioDevice initialized.
+[2017.11.16-19.23.36:493][592]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.11.16-19.23.36:493][592]LogLoad: Game class is 'GameModeBase'
+[2017.11.16-19.23.36:498][592]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arcade.Arcade up for play (max tick rate 0) at 2017.11.16-14.23.36
+[2017.11.16-19.23.36:499][592]LogWorld: Bringing up level for play took: 0.004683
+[2017.11.16-19.23.36:505][592]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arcade -0.719
+[2017.11.16-19.23.52:490][211]LogMaterial: Missing cached shader map for material M_GreyBall, compiling. 
+[2017.11.16-19.23.52:623][211]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2017.11.16-19.23.52:646][211]LogMaterial: Missing cached shader map for material M_ColorGrid, compiling. 
+[2017.11.16-19.23.52:668][211]LogMaterial: Missing cached shader map for material M_ChromeBall, compiling. 
+[2017.11.16-19.23.52:693][211]LogMaterial: Missing cached shader map for material M_ClearCoat, compiling. 
+[2017.11.16-19.23.52:719][211]LogMaterial: Missing cached shader map for material M_ClearCoatBlack, compiling. 
+[2017.11.16-19.23.52:747][211]LogMaterial: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2017.11.16-19.23.52:757][211]LogMaterial: Missing cached shader map for material M_LightStage_Arrows, compiling. 
+[2017.11.16-19.23.52:869][211]LogMaterial: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2017.11.16-19.23.52:884][211]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2017.11.16-19.24.01:242][470]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.11.16-19.24.09:797][918]LogAIModule: Creating AISystem for world StarterMap
+[2017.11.16-19.24.57:941][646]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-19.26.52:238][995]LogEditorViewport: Clicking on Actor (LMB): SkeeBall_C (SkeeBall)
+[2017.11.16-19.27.19:444][829]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.11.16-19.27.20:407][829]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2017.11.16-19.27.20:500][829]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2017.11.16-19.27.20:746][829]LogSlate: Took 0.024595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.16-19.27.21:168][830]LogSlate: Took 0.016194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.16-19.29.04:448][824]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-19.29.28:949][440]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.16-19.29.29:013][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-19.29.29:013][440]PIE: New page: PIE session: Arcade (Nov 16, 2017, 9:29:29 AM)
+[2017.11.16-19.29.29:013][440]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arcade
+[2017.11.16-19.29.29:037][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023369s)
+[2017.11.16-19.29.29:037][440]LogAIModule: Creating AISystem for world Arcade
+[2017.11.16-19.29.29:038][440]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2017.11.16-19.29.29:038][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arcade.Arcade to /Game/Maps/UEDPIE_0_Arcade.Arcade (0.024479s)
+[2017.11.16-19.29.29:074][440]LogInit: XAudio2 using 'Speaker (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-19.29.29:080][440]LogInit: FAudioDevice initialized.
+[2017.11.16-19.29.29:131][440]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.11.16-19.29.29:131][440]LogLoad: Game class is 'GameModeBase'
+[2017.11.16-19.29.29:135][440]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arcade.Arcade up for play (max tick rate 0) at 2017.11.16-14.29.29
+[2017.11.16-19.29.29:136][440]LogWorld: Bringing up level for play took: 0.004653
+[2017.11.16-19.29.29:136][440]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-19.29.29:141][440]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arcade -0.067
+[2017.11.16-19.33.36:538][389]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Arcade' took 0.020
+[2017.11.16-19.33.36:581][389]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_Effect_Fire] ([1] browsable assets)...
+[2017.11.16-19.33.36:581][389]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_Effect_Fire]
+[2017.11.16-19.33.36:598][389]LogSavePackage: Save=9.59ms
+[2017.11.16-19.33.36:598][389]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Blueprint_Effect_Fire_Auto120B9D095486153693BBFD3A6A9761B3D.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Fire_Auto1.uasset'
+[2017.11.16-19.33.36:599][389]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Fire_Auto1.uasset
+[2017.11.16-19.33.36:599][389]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_Effect_Smoke] ([1] browsable assets)...
+[2017.11.16-19.33.36:599][389]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_Effect_Smoke]
+[2017.11.16-19.33.36:615][389]LogSavePackage: Save=9.46ms
+[2017.11.16-19.33.36:615][389]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Blueprint_Effect_Smoke_Auto1ACC6F9DE421A132972AF8CAE301F0536.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Smoke_Auto1.uasset'
+[2017.11.16-19.33.36:616][389]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Smoke_Auto1.uasset
+[2017.11.16-19.33.36:616][389]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks] ([1] browsable assets)...
+[2017.11.16-19.33.36:616][389]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks]
+[2017.11.16-19.33.36:631][389]LogSavePackage: Save=8.90ms
+[2017.11.16-19.33.36:631][389]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Blueprint_Effect_Sparks_Auto1D526186E4949A26E9A1B09B8113DAF89.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks_Auto1.uasset'
+[2017.11.16-19.33.36:632][389]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks_Auto1.uasset
+[2017.11.16-19.33.36:633][389]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Score] ([1] browsable assets)...
+[2017.11.16-19.33.36:633][389]OBJ SavePackage: Finished generating thumbnails for package [/Game/Score]
+[2017.11.16-19.33.36:633][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Score" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Autosaves/Game/Score_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.16-19.33.36:646][389]LogSavePackage: Save=12.38ms
+[2017.11.16-19.33.36:646][389]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Score_Auto1EF9EFAB74135B6C21F3FA49090E40BFD.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Autosaves/Game/Score_Auto1.uasset'
+[2017.11.16-19.33.36:647][389]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Autosaves/Game/Score_Auto1.uasset
+[2017.11.16-19.33.36:647][389]LogFileHelpers: Auto-saving content packages took 0.093
+[2017.11.16-19.33.57:839][784]BlueprintLog: New page: Compile Score
+[2017.11.16-19.34.40:541][621]LogSlate: Took 0.021408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.16-19.36.46:914][738]BlueprintLog: New page: Compile Score
+[2017.11.16-19.36.47:512][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Score" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/Score.uasset" SILENT=true
+[2017.11.16-19.36.47:556][786]LogSavePackage: Save=42.14ms
+[2017.11.16-19.36.47:556][786]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/Score2A58489148E3BDD09AA537843EFE0FA1.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/Score.uasset'
+[2017.11.16-19.36.47:632][786]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/Score.uasset
+[2017.11.16-19.37.43:848][314]LogMetaData: Removing '/Game/ScoreHUD.SKEL_ScoreHUD_C' ref from Metadata '/Game/Score.PackageMetaData'
+[2017.11.16-19.37.43:848][314]LogMetaData: Removing '/Game/ScoreHUD.ScoreHUD_C' ref from Metadata '/Game/Score.PackageMetaData'
+[2017.11.16-19.37.43:848][314]LogMetaData: Removing '/Game/ScoreHUD.ScoreHUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Score.PackageMetaData'
+[2017.11.16-19.37.43:848][314]LogMetaData: Removing '/Game/ScoreHUD.ScoreHUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Score.PackageMetaData'
+[2017.11.16-19.37.43:848][314]LogMetaData: Removing '/Game/ScoreHUD.ScoreHUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Score.PackageMetaData'
+[2017.11.16-19.37.43:884][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScoreHUD" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/ScoreHUD.uasset" SILENT=true
+[2017.11.16-19.37.43:906][314]LogSavePackage: Save=19.63ms
+[2017.11.16-19.37.43:906][314]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/ScoreHUDA52186DA4D22A755CD7BBDB0C80437A9.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/ScoreHUD.uasset'
+[2017.11.16-19.37.43:908][314]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/ScoreHUD.uasset
+[2017.11.16-19.37.48:790][800]BlueprintLog: New page: Compile ScoreHUD
+[2017.11.16-19.37.49:428][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScoreHUD" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/ScoreHUD.uasset" SILENT=true
+[2017.11.16-19.37.49:455][852]LogSavePackage: Save=18.87ms
+[2017.11.16-19.37.49:455][852]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/ScoreHUDF9D16510486FF64FE2119FB82E597554.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/ScoreHUD.uasset'
+[2017.11.16-19.37.49:456][852]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/ScoreHUD.uasset
+[2017.11.16-19.37.51:182][ 19]BlueprintLog: New page: Compile GoalTarget
+[2017.11.16-19.37.52:020][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GoalTarget" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/GoalTarget.uasset" SILENT=true
+[2017.11.16-19.37.52:102][ 19]LogSavePackage: Save=29.71ms
+[2017.11.16-19.37.52:102][ 19]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/GoalTarget3724149F46636F77CF71B3AE229BED88.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/GoalTarget.uasset'
+[2017.11.16-19.37.52:104][ 19]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/GoalTarget.uasset
+[2017.11.16-19.37.55:370][388]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.16-19.39.58:151][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GoalTarget" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/GoalTarget.uasset" SILENT=true
+[2017.11.16-19.39.58:186][399]LogSavePackage: Save=32.39ms
+[2017.11.16-19.39.58:186][399]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/GoalTarget0FD8A7784A8671C1656460A4C617F2F0.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/GoalTarget.uasset'
+[2017.11.16-19.39.58:199][399]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/GoalTarget.uasset
+[2017.11.16-19.40.09:051][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScoreHUD" FILE="../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/ScoreHUD.uasset" SILENT=true
+[2017.11.16-19.40.09:069][613]LogSavePackage: Save=15.60ms
+[2017.11.16-19.40.09:069][613]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Saved/ScoreHUDE3576008467EEC31CAF694A2C884A591.tmp' to '../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/ScoreHUD.uasset'
+[2017.11.16-19.40.09:071][613]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Documents/Public Programs/MMC-Skee-Ball.git/Content/ScoreHUD.uasset
